@@ -64,7 +64,7 @@ for category in query_samples:
 tk.Label(root, text="Chọn truy vấn:", font=("Arial", 12)).pack(pady=5)
 
 # Combobox chọn câu hỏi
-query_combobox = ttk.Combobox(root, values=list(queries.keys()), font=("Arial", 11), width=80)
+query_combobox = ttk.Combobox(root, values=list(queries.keys()), font=("Arial", 11), width=90)
 query_combobox.pack(pady=5)
 query_combobox.bind("<<ComboboxSelected>>", lambda event: update_query())
 
@@ -73,7 +73,7 @@ param_frame = tk.Frame(root)
 param_frame.pack(pady=5)
 
 tk.Label(param_frame, text="Quận:", font=("Arial", 11)).grid(row=0, column=0, padx=5, pady=2)
-quan_combobox = ttk.Combobox(param_frame, values=quan_huyen, font=("Arial", 11), width=12)
+quan_combobox = ttk.Combobox(param_frame, values=quan_huyen, font=("Arial", 11), width=15)
 quan_combobox.grid(row=0, column=1, padx=5, pady=2)
 
 tk.Label(param_frame, text="Điểm khởi hành:", font=("Arial", 11)).grid(row=0, column=2, padx=5, pady=2)
@@ -85,14 +85,14 @@ diem_den_combobox = ttk.Combobox(param_frame, values=dia_diem_list, font=("Arial
 diem_den_combobox.grid(row=1, column=1, padx=5, pady=2)
 
 tk.Label(param_frame, text="Phương tiện:", font=("Arial", 11)).grid(row=1, column=2, padx=5, pady=2)
-phuong_tien_combobox = ttk.Combobox(param_frame, values=phuong_tien, font=("Arial", 11), width=12)
+phuong_tien_combobox = ttk.Combobox(param_frame, values=phuong_tien, font=("Arial", 11), width=15)
 phuong_tien_combobox.grid(row=1, column=3, padx=5, pady=2)
 
 # Nút cập nhật truy vấn
 tk.Button(root, text="Cập nhật truy vấn", command=update_query, font=("Arial", 11)).pack(pady=5)
 
 # Ô nhập truy vấn
-query_entry = tk.Entry(root, width=80, font=("Arial", 11))
+query_entry = tk.Entry(root, width=90, font=("Arial", 11))
 query_entry.pack(pady=5)
 
 # Nút thực hiện truy vấn
