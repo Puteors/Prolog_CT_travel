@@ -1,0 +1,742 @@
+% Khoảng cách từ chợ nổi Cái Răng đến các địa điểm khác
+khoang_cach(cho_noi_cai_rang, ben_ninh_kieu, 6).
+khoang_cach(cho_noi_cai_rang, nha_co_binh_thuy, 10).
+khoang_cach(cho_noi_cai_rang, vuon_du_lich_my_khanh, 5).
+khoang_cach(cho_noi_cai_rang, thien_vien_truc_lam_phuong_nam, 7).
+khoang_cach(cho_noi_cai_rang, con_son, 12).
+khoang_cach(cho_noi_cai_rang, cho_dem_tay_do, 6).
+khoang_cach(cho_noi_cai_rang, lo_hu_tieu, 2).
+khoang_cach(cho_noi_cai_rang, chua_ong, 7).
+khoang_cach(cho_noi_cai_rang, cau_di_bo_can_tho, 6).
+khoang_cach(cho_noi_cai_rang, vuon_co_bang_lang, 20).
+khoang_cach(cho_noi_cai_rang, bao_tang_can_tho, 8).
+khoang_cach(cho_noi_cai_rang, con_au, 3).
+khoang_cach(cho_noi_cai_rang, chua_phat_hoc, 7).
+khoang_cach(cho_noi_cai_rang, chua_quang_duc, 7).
+khoang_cach(cho_noi_cai_rang, vuon_sinh_thai_bao_gia_trang_vien, 4).
+khoang_cach(cho_noi_cai_rang, cong_vien_tao_dan, 8).
+khoang_cach(cho_noi_cai_rang, thoi_long_co_tu, 15).
+khoang_cach(cho_noi_cai_rang, gian_gua, 9).
+khoang_cach(cho_noi_cai_rang, con_duong_bich_hoa_can_tho, 7).
+khoang_cach(cho_noi_cai_rang, vuon_sinh_thai_ut_hien, 3).
+khoang_cach(cho_noi_cai_rang, vuon_ca_cao_muoi_cuong, 11).
+khoang_cach(cho_noi_cai_rang, chua_khmer_munir_ansay, 7).
+khoang_cach(cho_noi_cai_rang, vuon_trai_cay_chin_hong, 10).
+khoang_cach(cho_noi_cai_rang, chua_pothi_somron, 14).
+khoang_cach(cho_noi_cai_rang, khu_du_lich_ong_de, 9).
+khoang_cach(cho_noi_cai_rang, bai_bien_nhan_tao_can_tho, 7).
+khoang_cach(cho_noi_cai_rang, cong_vien_luu_huu_phuoc, 7).
+khoang_cach(cho_noi_cai_rang, di_tich_can_cu_vuon_man, 11).
+khoang_cach(cho_noi_cai_rang, mo_thu_khoa_bui_huu_nghia, 11).
+khoang_cach(cho_noi_cai_rang, hoa_yen_cafe, 7).
+khoang_cach(cho_noi_cai_rang, tiem_tra_co_ngot, 7).
+khoang_cach(cho_noi_cai_rang, coti_cafe, 7).
+khoang_cach(cho_noi_cai_rang, the_coffee_house, 7).
+khoang_cach(cho_noi_cai_rang, tiem_cafe_khoanh_khac, 7).
+khoang_cach(cho_noi_cai_rang, mini_beach, 7).
+khoang_cach(cho_noi_cai_rang, haidi_coffee, 7).
+khoang_cach(cho_noi_cai_rang, infini_t, 7).
+khoang_cach(cho_noi_cai_rang, tiem_cafe_ga_can_tho, 7).
+khoang_cach(cho_noi_cai_rang, coffee_time, 7).
+khoang_cach(cho_noi_cai_rang, mituu_smoothie_bowls_tea, 7).
+khoang_cach(cho_noi_cai_rang, bo_nuong_ngoi_cu_lan, 7).
+khoang_cach(cho_noi_cai_rang, sui_cao_a_chay, 7).
+khoang_cach(cho_noi_cai_rang, bun_dau_6_ket, 7).
+khoang_cach(cho_noi_cai_rang, am_thuc_song_tho, 7).
+khoang_cach(cho_noi_cai_rang, thuong_cang_quan, 7).
+khoang_cach(cho_noi_cai_rang, la_ca, 7).
+khoang_cach(cho_noi_cai_rang, ngoc_nhan_quan, 7).
+khoang_cach(cho_noi_cai_rang, oc_ut_hien, 7).
+khoang_cach(cho_noi_cai_rang, la_ca_2, 7).
+khoang_cach(cho_noi_cai_rang, oc_ly_saigon, 7).
+khoang_cach(cho_noi_cai_rang, khach_san_azerai, 2).
+khoang_cach(cho_noi_cai_rang, khach_san_vinpearl, 7).
+khoang_cach(cho_noi_cai_rang, khach_san_muong_thanh, 7).
+khoang_cach(cho_noi_cai_rang, khach_san_can_tho_ecolodge, 10).
+khoang_cach(cho_noi_cai_rang, khach_san_nesta, 7).
+khoang_cach(cho_noi_cai_rang, khach_san_apple, 7).
+khoang_cach(cho_noi_cai_rang, khach_san_riverside, 7).
+khoang_cach(cho_noi_cai_rang, mekong_rustic, 7).
+khoang_cach(cho_noi_cai_rang, khach_san_hanh_phuc, 7).
+khoang_cach(cho_noi_cai_rang, khach_san_aura, 7).
+khoang_cach(cho_noi_cai_rang, khach_san_lavender, 7).
+khoang_cach(cho_noi_cai_rang, green_village_mekong, 7).
+khoang_cach(cho_noi_cai_rang, khach_san_amazon, 7).
+khoang_cach(cho_noi_cai_rang, khach_san_international, 7).
+khoang_cach(cho_noi_cai_rang, khach_san_holiday, 7).
+khoang_cach(cho_noi_cai_rang, art_can_tho_hotel, 7).
+
+% Khoảng cách từ ben_ninh_kieu đến các địa điểm khác
+khoang_cach(ben_ninh_kieu, cho_noi_cai_rang, 6).
+khoang_cach(ben_ninh_kieu, nha_co_binh_thuy, 5).
+khoang_cach(ben_ninh_kieu, vuon_du_lich_my_khanh, 10).
+khoang_cach(ben_ninh_kieu, thien_vien_truc_lam_phuong_nam, 12).
+khoang_cach(ben_ninh_kieu, con_son, 6).
+khoang_cach(ben_ninh_kieu, cho_dem_tay_do, 1).
+khoang_cach(ben_ninh_kieu, lo_hu_tieu, 8).
+khoang_cach(ben_ninh_kieu, chua_ong, 2).
+khoang_cach(ben_ninh_kieu, cau_di_bo_can_tho, 1).
+khoang_cach(ben_ninh_kieu, vuon_co_bang_lang, 25).
+khoang_cach(ben_ninh_kieu, bao_tang_can_tho, 3).
+khoang_cach(ben_ninh_kieu, con_au, 9).
+khoang_cach(ben_ninh_kieu, chua_phat_hoc, 2).
+khoang_cach(ben_ninh_kieu, chua_quang_duc, 3).
+khoang_cach(ben_ninh_kieu, vuon_sinh_thai_bao_gia_trang_vien, 10).
+khoang_cach(ben_ninh_kieu, cong_vien_tao_dan, 2).
+khoang_cach(ben_ninh_kieu, thoi_long_co_tu, 18).
+khoang_cach(ben_ninh_kieu, gian_gua, 16).
+khoang_cach(ben_ninh_kieu, con_duong_bich_hoa_can_tho, 1).
+khoang_cach(ben_ninh_kieu, vuon_sinh_thai_ut_hien, 9).
+khoang_cach(ben_ninh_kieu, vuon_ca_cao_muoi_cuong, 6).
+khoang_cach(ben_ninh_kieu, chua_khmer_munir_ansay, 2).
+khoang_cach(ben_ninh_kieu, vuon_trai_cay_chin_hong, 14).
+khoang_cach(ben_ninh_kieu, chua_pothi_somron, 17).
+khoang_cach(ben_ninh_kieu, khu_du_lich_ong_de, 15).
+khoang_cach(ben_ninh_kieu, bai_bien_nhan_tao_can_tho, 4).
+khoang_cach(ben_ninh_kieu, cong_vien_luu_huu_phuoc, 1).
+khoang_cach(ben_ninh_kieu, di_tich_can_cu_vuon_man, 7).
+khoang_cach(ben_ninh_kieu, mo_thu_khoa_bui_huu_nghia, 6).
+
+% Khoảng cách từ ben_ninh_kieu đến các quán cà phê
+khoang_cach(ben_ninh_kieu, hoa_yen_cafe, 2).
+khoang_cach(ben_ninh_kieu, tiem_tra_co_ngot, 3).
+khoang_cach(ben_ninh_kieu, coti_cafe, 2).
+khoang_cach(ben_ninh_kieu, the_coffee_house, 1).
+khoang_cach(ben_ninh_kieu, tiem_cafe_khoanh_khac, 2).
+khoang_cach(ben_ninh_kieu, mini_beach, 3).
+khoang_cach(ben_ninh_kieu, haidi_coffee, 2).
+khoang_cach(ben_ninh_kieu, infini_t, 5).
+khoang_cach(ben_ninh_kieu, tiem_cafe_ga_can_tho, 2).
+khoang_cach(ben_ninh_kieu, coffee_time, 3).
+khoang_cach(ben_ninh_kieu, mituu_smoothie_bowls_tea, 2).
+khoang_cach(ben_ninh_kieu, tiem_cafe_hoa_mi, 3).
+
+% Khoảng cách từ ben_ninh_kieu đến các quán ăn
+khoang_cach(ben_ninh_kieu, bo_nuong_ngoi_cu_lan, 2).
+khoang_cach(ben_ninh_kieu, sui_cao_a_chay, 3).
+khoang_cach(ben_ninh_kieu, bun_dau_6_ket, 4).
+khoang_cach(ben_ninh_kieu, am_thuc_song_tho, 3).
+khoang_cach(ben_ninh_kieu, thuong_cang_quan, 2).
+khoang_cach(ben_ninh_kieu, la_ca, 3).
+khoang_cach(ben_ninh_kieu, ngoc_nhan_quan, 3).
+khoang_cach(ben_ninh_kieu, oc_ut_hien, 2).
+khoang_cach(ben_ninh_kieu, la_ca_2, 3).
+khoang_cach(ben_ninh_kieu, oc_ly_saigon, 3).
+
+% Khoảng cách từ ben_ninh_kieu đến các khách sạn
+khoang_cach(ben_ninh_kieu, khach_san_azerai, 7).
+khoang_cach(ben_ninh_kieu, khach_san_vinpearl, 1).
+khoang_cach(ben_ninh_kieu, khach_san_muong_thanh, 2).
+khoang_cach(ben_ninh_kieu, khach_san_can_tho_ecolodge, 12).
+khoang_cach(ben_ninh_kieu, khach_san_nesta, 3).
+khoang_cach(ben_ninh_kieu, khach_san_apple, 3).
+khoang_cach(ben_ninh_kieu, khach_san_riverside, 2).
+khoang_cach(ben_ninh_kieu, mekong_rustic, 5).
+khoang_cach(ben_ninh_kieu, khach_san_hanh_phuc, 3).
+khoang_cach(ben_ninh_kieu, khach_san_aura, 3).
+khoang_cach(ben_ninh_kieu, khach_san_lavender, 2).
+khoang_cach(ben_ninh_kieu, green_village_mekong, 6).
+khoang_cach(ben_ninh_kieu, khach_san_amazon, 3).
+khoang_cach(ben_ninh_kieu, khach_san_international, 3).
+khoang_cach(ben_ninh_kieu, khach_san_holiday, 2).
+khoang_cach(ben_ninh_kieu, art_can_tho_hotel, 4).
+
+% Khoảng cách từ nha_co_binh_thuy đến các địa điểm khác
+khoang_cach(nha_co_binh_thuy, cho_noi_cai_rang, 10).
+khoang_cach(nha_co_binh_thuy, ben_ninh_kieu, 5).
+khoang_cach(nha_co_binh_thuy, vuon_du_lich_my_khanh, 12).
+khoang_cach(nha_co_binh_thuy, thien_vien_truc_lam_phuong_nam, 14).
+khoang_cach(nha_co_binh_thuy, con_son, 4).
+khoang_cach(nha_co_binh_thuy, cho_dem_tay_do, 6).
+khoang_cach(nha_co_binh_thuy, lo_hu_tieu, 12).
+khoang_cach(nha_co_binh_thuy, chua_ong, 5).
+khoang_cach(nha_co_binh_thuy, cau_di_bo_can_tho, 4).
+khoang_cach(nha_co_binh_thuy, vuon_co_bang_lang, 22).
+khoang_cach(nha_co_binh_thuy, bao_tang_can_tho, 5).
+khoang_cach(nha_co_binh_thuy, con_au, 13).
+khoang_cach(nha_co_binh_thuy, chua_phat_hoc, 5).
+khoang_cach(nha_co_binh_thuy, chua_quang_duc, 5).
+khoang_cach(nha_co_binh_thuy, vuon_sinh_thai_bao_gia_trang_vien, 12).
+khoang_cach(nha_co_binh_thuy, cong_vien_tao_dan, 6).
+khoang_cach(nha_co_binh_thuy, thoi_long_co_tu, 20).
+khoang_cach(nha_co_binh_thuy, gian_gua, 18).
+khoang_cach(nha_co_binh_thuy, con_duong_bich_hoa_can_tho, 6).
+khoang_cach(nha_co_binh_thuy, vuon_sinh_thai_ut_hien, 12).
+khoang_cach(nha_co_binh_thuy, vuon_ca_cao_muoi_cuong, 3).
+khoang_cach(nha_co_binh_thuy, chua_khmer_munir_ansay, 5).
+khoang_cach(nha_co_binh_thuy, vuon_trai_cay_chin_hong, 16).
+khoang_cach(nha_co_binh_thuy, chua_pothi_somron, 19).
+khoang_cach(nha_co_binh_thuy, khu_du_lich_ong_de, 17).
+khoang_cach(nha_co_binh_thuy, bai_bien_nhan_tao_can_tho, 8).
+khoang_cach(nha_co_binh_thuy, cong_vien_luu_huu_phuoc, 6).
+khoang_cach(nha_co_binh_thuy, di_tich_can_cu_vuon_man, 3).
+khoang_cach(nha_co_binh_thuy, mo_thu_khoa_bui_huu_nghia, 2).
+
+% Khoảng cách từ nha_co_binh_thuy đến các quán cà phê
+khoang_cach(nha_co_binh_thuy, hoa_yen_cafe, 4).
+khoang_cach(nha_co_binh_thuy, tiem_tra_co_ngot, 5).
+khoang_cach(nha_co_binh_thuy, coti_cafe, 4).
+khoang_cach(nha_co_binh_thuy, the_coffee_house, 4).
+khoang_cach(nha_co_binh_thuy, tiem_cafe_khoanh_khac, 5).
+khoang_cach(nha_co_binh_thuy, mini_beach, 5).
+khoang_cach(nha_co_binh_thuy, haidi_coffee, 4).
+khoang_cach(nha_co_binh_thuy, infini_t, 7).
+khoang_cach(nha_co_binh_thuy, tiem_cafe_ga_can_tho, 4).
+khoang_cach(nha_co_binh_thuy, coffee_time, 5).
+khoang_cach(nha_co_binh_thuy, mituu_smoothie_bowls_tea, 5).
+khoang_cach(nha_co_binh_thuy, tiem_cafe_hoa_mi, 6).
+
+% Khoảng cách từ nha_co_binh_thuy đến các quán ăn
+khoang_cach(nha_co_binh_thuy, bo_nuong_ngoi_cu_lan, 4).
+khoang_cach(nha_co_binh_thuy, sui_cao_a_chay, 5).
+khoang_cach(nha_co_binh_thuy, bun_dau_6_ket, 6).
+khoang_cach(nha_co_binh_thuy, am_thuc_song_tho, 5).
+khoang_cach(nha_co_binh_thuy, thuong_cang_quan, 4).
+khoang_cach(nha_co_binh_thuy, la_ca, 5).
+khoang_cach(nha_co_binh_thuy, ngoc_nhan_quan, 5).
+khoang_cach(nha_co_binh_thuy, oc_ut_hien, 4).
+khoang_cach(nha_co_binh_thuy, la_ca_2, 5).
+khoang_cach(nha_co_binh_thuy, oc_ly_saigon, 5).
+
+% Khoảng cách từ nha_co_binh_thuy đến các khách sạn
+khoang_cach(nha_co_binh_thuy, khach_san_azerai, 9).
+khoang_cach(nha_co_binh_thuy, khach_san_vinpearl, 4).
+khoang_cach(nha_co_binh_thuy, khach_san_muong_thanh, 5).
+khoang_cach(nha_co_binh_thuy, khach_san_can_tho_ecolodge, 14).
+khoang_cach(nha_co_binh_thuy, khach_san_nesta, 5).
+khoang_cach(nha_co_binh_thuy, khach_san_apple, 5).
+khoang_cach(nha_co_binh_thuy, khach_san_riverside, 4).
+khoang_cach(nha_co_binh_thuy, mekong_rustic, 6).
+khoang_cach(nha_co_binh_thuy, khach_san_hanh_phuc, 5).
+khoang_cach(nha_co_binh_thuy, khach_san_aura, 5).
+khoang_cach(nha_co_binh_thuy, khach_san_lavender, 4).
+khoang_cach(nha_co_binh_thuy, green_village_mekong, 8).
+khoang_cach(nha_co_binh_thuy, khach_san_amazon, 5).
+khoang_cach(nha_co_binh_thuy, khach_san_international, 5).
+khoang_cach(nha_co_binh_thuy, khach_san_holiday, 4).
+khoang_cach(nha_co_binh_thuy, art_can_tho_hotel, 6).
+
+% Khoảng cách từ vuon_du_lich_my_khanh đến các địa điểm khác
+khoang_cach(vuon_du_lich_my_khanh, cho_noi_cai_rang, 5).
+khoang_cach(vuon_du_lich_my_khanh, ben_ninh_kieu, 10).
+khoang_cach(vuon_du_lich_my_khanh, nha_co_binh_thuy, 12).
+khoang_cach(vuon_du_lich_my_khanh, thien_vien_truc_lam_phuong_nam, 2).
+khoang_cach(vuon_du_lich_my_khanh, con_son, 15).
+khoang_cach(vuon_du_lich_my_khanh, cho_dem_tay_do, 10).
+khoang_cach(vuon_du_lich_my_khanh, lo_hu_tieu, 7).
+khoang_cach(vuon_du_lich_my_khanh, chua_ong, 11).
+khoang_cach(vuon_du_lich_my_khanh, cau_di_bo_can_tho, 10).
+khoang_cach(vuon_du_lich_my_khanh, vuon_co_bang_lang, 28).
+khoang_cach(vuon_du_lich_my_khanh, bao_tang_can_tho, 11).
+khoang_cach(vuon_du_lich_my_khanh, con_au, 6).
+khoang_cach(vuon_du_lich_my_khanh, chua_phat_hoc, 11).
+khoang_cach(vuon_du_lich_my_khanh, chua_quang_duc, 11).
+khoang_cach(vuon_du_lich_my_khanh, vuon_sinh_thai_bao_gia_trang_vien, 5).
+khoang_cach(vuon_du_lich_my_khanh, cong_vien_tao_dan, 11).
+khoang_cach(vuon_du_lich_my_khanh, thoi_long_co_tu, 22).
+khoang_cach(vuon_du_lich_my_khanh, gian_gua, 10).
+khoang_cach(vuon_du_lich_my_khanh, con_duong_bich_hoa_can_tho, 11).
+khoang_cach(vuon_du_lich_my_khanh, vuon_sinh_thai_ut_hien, 5).
+khoang_cach(vuon_du_lich_my_khanh, vuon_ca_cao_muoi_cuong, 14).
+khoang_cach(vuon_du_lich_my_khanh, chua_khmer_munir_ansay, 11).
+khoang_cach(vuon_du_lich_my_khanh, vuon_trai_cay_chin_hong, 4).
+khoang_cach(vuon_du_lich_my_khanh, chua_pothi_somron, 18).
+khoang_cach(vuon_du_lich_my_khanh, khu_du_lich_ong_de, 6).
+khoang_cach(vuon_du_lich_my_khanh, bai_bien_nhan_tao_can_tho, 10).
+khoang_cach(vuon_du_lich_my_khanh, cong_vien_luu_huu_phuoc, 11).
+khoang_cach(vuon_du_lich_my_khanh, di_tich_can_cu_vuon_man, 14).
+khoang_cach(vuon_du_lich_my_khanh, mo_thu_khoa_bui_huu_nghia, 14).
+
+% Khoảng cách từ vuon_du_lich_my_khanh đến các quán cà phê
+khoang_cach(vuon_du_lich_my_khanh, hoa_yen_cafe, 10).
+khoang_cach(vuon_du_lich_my_khanh, tiem_tra_co_ngot, 11).
+khoang_cach(vuon_du_lich_my_khanh, coti_cafe, 10).
+khoang_cach(vuon_du_lich_my_khanh, the_coffee_house, 10).
+khoang_cach(vuon_du_lich_my_khanh, tiem_cafe_khoanh_khac, 11).
+khoang_cach(vuon_du_lich_my_khanh, mini_beach, 11).
+khoang_cach(vuon_du_lich_my_khanh, haidi_coffee, 10).
+khoang_cach(vuon_du_lich_my_khanh, infini_t, 13).
+khoang_cach(vuon_du_lich_my_khanh, tiem_cafe_ga_can_tho, 10).
+khoang_cach(vuon_du_lich_my_khanh, coffee_time, 11).
+khoang_cach(vuon_du_lich_my_khanh, mituu_smoothie_bowls_tea, 11).
+khoang_cach(vuon_du_lich_my_khanh, tiem_cafe_hoa_mi, 12).
+
+% Khoảng cách từ vuon_du_lich_my_khanh đến các quán ăn
+khoang_cach(vuon_du_lich_my_khanh, bo_nuong_ngoi_cu_lan, 10).
+khoang_cach(vuon_du_lich_my_khanh, sui_cao_a_chay, 11).
+khoang_cach(vuon_du_lich_my_khanh, bun_dau_6_ket, 12).
+khoang_cach(vuon_du_lich_my_khanh, am_thuc_song_tho, 11).
+khoang_cach(vuon_du_lich_my_khanh, thuong_cang_quan, 10).
+khoang_cach(vuon_du_lich_my_khanh, la_ca, 11).
+khoang_cach(vuon_du_lich_my_khanh, ngoc_nhan_quan, 11).
+khoang_cach(vuon_du_lich_my_khanh, oc_ut_hien, 10).
+khoang_cach(vuon_du_lich_my_khanh, la_ca_2, 11).
+khoang_cach(vuon_du_lich_my_khanh, oc_ly_saigon, 11).
+
+% Khoảng cách từ vuon_du_lich_my_khanh đến các khách sạn
+khoang_cach(vuon_du_lich_my_khanh, khach_san_azerai, 14).
+khoang_cach(vuon_du_lich_my_khanh, khach_san_vinpearl, 10).
+khoang_cach(vuon_du_lich_my_khanh, khach_san_muong_thanh, 11).
+khoang_cach(vuon_du_lich_my_khanh, khach_san_can_tho_ecolodge, 3).
+khoang_cach(vuon_du_lich_my_khanh, khach_san_nesta, 11).
+khoang_cach(vuon_du_lich_my_khanh, khach_san_apple, 11).
+khoang_cach(vuon_du_lich_my_khanh, khach_san_riverside, 10).
+khoang_cach(vuon_du_lich_my_khanh, mekong_rustic, 12).
+khoang_cach(vuon_du_lich_my_khanh, khach_san_hanh_phuc, 11).
+khoang_cach(vuon_du_lich_my_khanh, khach_san_aura, 11).
+khoang_cach(vuon_du_lich_my_khanh, khach_san_lavender, 10).
+khoang_cach(vuon_du_lich_my_khanh, green_village_mekong, 13).
+khoang_cach(vuon_du_lich_my_khanh, khach_san_amazon, 11).
+khoang_cach(vuon_du_lich_my_khanh, khach_san_international, 11).
+khoang_cach(vuon_du_lich_my_khanh, khach_san_holiday, 10).
+khoang_cach(vuon_du_lich_my_khanh, art_can_tho_hotel, 12).
+
+% Khoảng cách từ thien_vien_truc_lam_phuong_nam đến các địa điểm khác
+khoang_cach(thien_vien_truc_lam_phuong_nam, cho_noi_cai_rang, 7).
+khoang_cach(thien_vien_truc_lam_phuong_nam, ben_ninh_kieu, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, nha_co_binh_thuy, 14).
+khoang_cach(thien_vien_truc_lam_phuong_nam, vuon_du_lich_my_khanh, 2).
+khoang_cach(thien_vien_truc_lam_phuong_nam, con_son, 17).
+khoang_cach(thien_vien_truc_lam_phuong_nam, cho_dem_tay_do, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, lo_hu_tieu, 9).
+khoang_cach(thien_vien_truc_lam_phuong_nam, chua_ong, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, cau_di_bo_can_tho, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, vuon_co_bang_lang, 30).
+khoang_cach(thien_vien_truc_lam_phuong_nam, bao_tang_can_tho, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, con_au, 8).
+khoang_cach(thien_vien_truc_lam_phuong_nam, chua_phat_hoc, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, chua_quang_duc, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, vuon_sinh_thai_bao_gia_trang_vien, 7).
+khoang_cach(thien_vien_truc_lam_phuong_nam, cong_vien_tao_dan, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, thoi_long_co_tu, 24).
+khoang_cach(thien_vien_truc_lam_phuong_nam, gian_gua, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, con_duong_bich_hoa_can_tho, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, vuon_sinh_thai_ut_hien, 7).
+khoang_cach(thien_vien_truc_lam_phuong_nam, vuon_ca_cao_muoi_cuong, 16).
+khoang_cach(thien_vien_truc_lam_phuong_nam, chua_khmer_munir_ansay, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, vuon_trai_cay_chin_hong, 6).
+khoang_cach(thien_vien_truc_lam_phuong_nam, chua_pothi_somron, 20).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khu_du_lich_ong_de, 8).
+khoang_cach(thien_vien_truc_lam_phuong_nam, bai_bien_nhan_tao_can_tho, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, cong_vien_luu_huu_phuoc, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, di_tich_can_cu_vuon_man, 16).
+khoang_cach(thien_vien_truc_lam_phuong_nam, mo_thu_khoa_bui_huu_nghia, 16).
+
+% Khoảng cách từ thien_vien_truc_lam_phuong_nam đến các quán cà phê
+khoang_cach(thien_vien_truc_lam_phuong_nam, hoa_yen_cafe, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, tiem_tra_co_ngot, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, coti_cafe, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, the_coffee_house, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, tiem_cafe_khoanh_khac, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, mini_beach, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, haidi_coffee, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, infini_t, 15).
+khoang_cach(thien_vien_truc_lam_phuong_nam, tiem_cafe_ga_can_tho, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, coffee_time, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, mituu_smoothie_bowls_tea, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, tiem_cafe_hoa_mi, 14).
+
+% Khoảng cách từ thien_vien_truc_lam_phuong_nam đến các quán ăn
+khoang_cach(thien_vien_truc_lam_phuong_nam, bo_nuong_ngoi_cu_lan, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, sui_cao_a_chay, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, bun_dau_6_ket, 14).
+khoang_cach(thien_vien_truc_lam_phuong_nam, am_thuc_song_tho, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, thuong_cang_quan, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, la_ca, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, ngoc_nhan_quan, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, oc_ut_hien, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, la_ca_2, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, oc_ly_saigon, 13).
+
+% Khoảng cách từ thien_vien_truc_lam_phuong_nam đến các khách sạn
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_azerai, 16).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_vinpearl, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_muong_thanh, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_can_tho_ecolodge, 5).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_nesta, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_apple, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_riverside, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, mekong_rustic, 14).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_hanh_phuc, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_aura, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_lavender, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, green_village_mekong, 15).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_amazon, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_international, 13).
+khoang_cach(thien_vien_truc_lam_phuong_nam, khach_san_holiday, 12).
+khoang_cach(thien_vien_truc_lam_phuong_nam, art_can_tho_hotel, 14).
+
+% Khoảng cách từ con_son đến các địa điểm khác
+khoang_cach(con_son, cho_noi_cai_rang, 2).
+khoang_cach(con_son, ben_ninh_kieu, 6).
+khoang_cach(con_son, nha_co_binh_thuy, 4).
+khoang_cach(con_son, vuon_du_lich_my_khanh, 15).
+khoang_cach(con_son, thien_vien_truc_lam_phuong_nam, 17).
+khoang_cach(con_son, cho_dem_tay_do, 15).
+khoang_cach(con_son, lo_hu_tieu, 11).
+khoang_cach(con_son, chua_ong, 6).
+khoang_cach(con_son, cau_di_bo_can_tho, 15).
+khoang_cach(con_son, vuon_co_bang_lang, 33).
+khoang_cach(con_son, bao_tang_can_tho, 6).
+khoang_cach(con_son, con_au, 14).
+khoang_cach(con_son, chua_phat_hoc, 6).
+khoang_cach(con_son, chua_quang_duc, 6).
+khoang_cach(con_son, vuon_sinh_thai_bao_gia_trang_vien, 15).
+khoang_cach(con_son, cong_vien_tao_dan, 6).
+khoang_cach(con_son, thoi_long_co_tu, 27).
+khoang_cach(con_son, gian_gua, 15).
+khoang_cach(con_son, con_duong_bich_hoa_can_tho, 15).
+khoang_cach(con_son, vuon_sinh_thai_ut_hien, 15).
+khoang_cach(con_son, vuon_ca_cao_muoi_cuong, 18).
+khoang_cach(con_son, chua_khmer_munir_ansay, 6).
+khoang_cach(con_son, vuon_trai_cay_chin_hong, 11).
+khoang_cach(con_son, chua_pothi_somron, 21).
+khoang_cach(con_son, khu_du_lich_ong_de, 9).
+khoang_cach(con_son, bai_bien_nhan_tao_can_tho, 12).
+khoang_cach(con_son, cong_vien_luu_huu_phuoc, 15).
+khoang_cach(con_son, di_tich_can_cu_vuon_man, 18).
+khoang_cach(con_son, mo_thu_khoa_bui_huu_nghia, 18).
+
+% Khoảng cách từ con_son đến các quán cà phê
+khoang_cach(con_son, hoa_yen_cafe, 6).
+khoang_cach(con_son, tiem_tra_co_ngot, 7).
+khoang_cach(con_son, coti_cafe, 6).
+khoang_cach(con_son, the_coffee_house, 6).
+khoang_cach(con_son, tiem_cafe_khoanh_khac, 7).
+khoang_cach(con_son, mini_beach, 7).
+khoang_cach(con_son, haidi_coffee, 6).
+khoang_cach(con_son, infini_t, 9).
+khoang_cach(con_son, tiem_cafe_ga_can_tho, 6).
+khoang_cach(con_son, coffee_time, 7).
+khoang_cach(con_son, mituu_smoothie_bowls_tea, 7).
+khoang_cach(con_son, tiem_cafe_hoa_mi, 8).
+
+% Khoảng cách từ con_son đến các quán ăn
+khoang_cach(con_son, bo_nuong_ngoi_cu_lan, 6).
+khoang_cach(con_son, sui_cao_a_chay, 7).
+khoang_cach(con_son, bun_dau_6_ket, 8).
+khoang_cach(con_son, am_thuc_song_tho, 7).
+khoang_cach(con_son, thuong_cang_quan, 6).
+khoang_cach(con_son, la_ca, 7).
+khoang_cach(con_son, ngoc_nhan_quan, 7).
+khoang_cach(con_son, oc_ut_hien, 6).
+khoang_cach(con_son, la_ca_2, 7).
+khoang_cach(con_son, oc_ly_saigon, 7).
+
+% Khoảng cách từ con_son đến các khách sạn
+khoang_cach(con_son, khach_san_azerai, 9).
+khoang_cach(con_son, khach_san_vinpearl, 5).
+khoang_cach(con_son, khach_san_muong_thanh, 6).
+khoang_cach(con_son, khach_san_can_tho_ecolodge, 17).
+khoang_cach(con_son, khach_san_nesta, 6).
+khoang_cach(con_son, khach_san_apple, 6).
+khoang_cach(con_son, khach_san_riverside, 5).
+khoang_cach(con_son, mekong_rustic, 8).
+khoang_cach(con_son, khach_san_hanh_phuc, 6).
+khoang_cach(con_son, khach_san_aura, 6).
+khoang_cach(con_son, khach_san_lavender, 5).
+khoang_cach(con_son, green_village_mekong, 11).
+khoang_cach(con_son, khach_san_amazon, 6).
+khoang_cach(con_son, khach_san_international, 6).
+khoang_cach(con_son, khach_san_holiday, 5).
+khoang_cach(con_son, art_can_tho_hotel, 7).
+
+% Khoảng cách từ cho_dem_tay_do đến các địa điểm khác
+khoang_cach(cho_dem_tay_do, cho_noi_cai_rang, 7).
+khoang_cach(cho_dem_tay_do, ben_ninh_kieu, 2).
+khoang_cach(cho_dem_tay_do, nha_co_binh_thuy, 6).
+khoang_cach(cho_dem_tay_do, vuon_du_lich_my_khanh, 10).
+khoang_cach(cho_dem_tay_do, thien_vien_truc_lam_phuong_nam, 12).
+khoang_cach(cho_dem_tay_do, con_son, 15).
+khoang_cach(cho_dem_tay_do, lo_hu_tieu, 6).
+khoang_cach(cho_dem_tay_do, chua_ong, 7).
+khoang_cach(cho_dem_tay_do, cau_di_bo_can_tho, 6).
+khoang_cach(cho_dem_tay_do, vuon_co_bang_lang, 24).
+khoang_cach(cho_dem_tay_do, bao_tang_can_tho, 7).
+khoang_cach(cho_dem_tay_do, con_au, 9).
+khoang_cach(cho_dem_tay_do, chua_phat_hoc, 7).
+khoang_cach(cho_dem_tay_do, chua_quang_duc, 7).
+khoang_cach(cho_dem_tay_do, vuon_sinh_thai_bao_gia_trang_vien, 10).
+khoang_cach(cho_dem_tay_do, cong_vien_tao_dan, 7).
+khoang_cach(cho_dem_tay_do, thoi_long_co_tu, 18).
+khoang_cach(cho_dem_tay_do, gian_gua, 6).
+khoang_cach(cho_dem_tay_do, con_duong_bich_hoa_can_tho, 7).
+khoang_cach(cho_dem_tay_do, vuon_sinh_thai_ut_hien, 10).
+khoang_cach(cho_dem_tay_do, vuon_ca_cao_muoi_cuong, 9).
+khoang_cach(cho_dem_tay_do, chua_khmer_munir_ansay, 7).
+khoang_cach(cho_dem_tay_do, vuon_trai_cay_chin_hong, 12).
+khoang_cach(cho_dem_tay_do, chua_pothi_somron, 15).
+khoang_cach(cho_dem_tay_do, khu_du_lich_ong_de, 13).
+khoang_cach(cho_dem_tay_do, bai_bien_nhan_tao_can_tho, 4).
+khoang_cach(cho_dem_tay_do, cong_vien_luu_huu_phuoc, 7).
+khoang_cach(cho_dem_tay_do, di_tich_can_cu_vuon_man, 9).
+khoang_cach(cho_dem_tay_do, mo_thu_khoa_bui_huu_nghia, 9).
+
+% Khoảng cách từ cho_dem_tay_do đến các quán cà phê
+khoang_cach(cho_dem_tay_do, hoa_yen_cafe, 2).
+khoang_cach(cho_dem_tay_do, tiem_tra_co_ngot, 3).
+khoang_cach(cho_dem_tay_do, coti_cafe, 2).
+khoang_cach(cho_dem_tay_do, the_coffee_house, 2).
+khoang_cach(cho_dem_tay_do, tiem_cafe_khoanh_khac, 3).
+khoang_cach(cho_dem_tay_do, mini_beach, 3).
+khoang_cach(cho_dem_tay_do, haidi_coffee, 2).
+khoang_cach(cho_dem_tay_do, infini_t, 5).
+khoang_cach(cho_dem_tay_do, tiem_cafe_ga_can_tho, 2).
+khoang_cach(cho_dem_tay_do, coffee_time, 3).
+khoang_cach(cho_dem_tay_do, mituu_smoothie_bowls_tea, 3).
+khoang_cach(cho_dem_tay_do, tiem_cafe_hoa_mi, 4).
+
+% Khoảng cách từ cho_dem_tay_do đến các quán ăn
+khoang_cach(cho_dem_tay_do, bo_nuong_ngoi_cu_lan, 2).
+khoang_cach(cho_dem_tay_do, sui_cao_a_chay, 3).
+khoang_cach(cho_dem_tay_do, bun_dau_6_ket, 4).
+khoang_cach(cho_dem_tay_do, am_thuc_song_tho, 3).
+khoang_cach(cho_dem_tay_do, thuong_cang_quan, 2).
+khoang_cach(cho_dem_tay_do, la_ca, 3).
+khoang_cach(cho_dem_tay_do, ngoc_nhan_quan, 3).
+khoang_cach(cho_dem_tay_do, oc_ut_hien, 2).
+khoang_cach(cho_dem_tay_do, la_ca_2, 3).
+khoang_cach(cho_dem_tay_do, oc_ly_saigon, 3).
+
+% Khoảng cách từ cho_dem_tay_do đến các khách sạn
+khoang_cach(cho_dem_tay_do, khach_san_azerai, 9).
+khoang_cach(cho_dem_tay_do, khach_san_vinpearl, 2).
+khoang_cach(cho_dem_tay_do, khach_san_muong_thanh, 3).
+khoang_cach(cho_dem_tay_do, khach_san_can_tho_ecolodge, 12).
+khoang_cach(cho_dem_tay_do, khach_san_nesta, 3).
+khoang_cach(cho_dem_tay_do, khach_san_apple, 3).
+khoang_cach(cho_dem_tay_do, khach_san_riverside, 2).
+khoang_cach(cho_dem_tay_do, mekong_rustic, 5).
+khoang_cach(cho_dem_tay_do, khach_san_hanh_phuc, 3).
+khoang_cach(cho_dem_tay_do, khach_san_aura, 3).
+khoang_cach(cho_dem_tay_do, khach_san_lavender, 2).
+khoang_cach(cho_dem_tay_do, green_village_mekong, 6).
+khoang_cach(cho_dem_tay_do, khach_san_amazon, 3).
+khoang_cach(cho_dem_tay_do, khach_san_international, 3).
+khoang_cach(cho_dem_tay_do, khach_san_holiday, 2).
+khoang_cach(cho_dem_tay_do, art_can_tho_hotel, 4).
+
+% Khoảng cách từ lo_hu_tieu đến các địa điểm khác
+khoang_cach(lo_hu_tieu, cho_noi_cai_rang, 2).
+khoang_cach(lo_hu_tieu, ben_ninh_kieu, 8).
+khoang_cach(lo_hu_tieu, nha_co_binh_thuy, 12).
+khoang_cach(lo_hu_tieu, vuon_du_lich_my_khanh, 7).
+khoang_cach(lo_hu_tieu, thien_vien_truc_lam_phuong_nam, 9).
+khoang_cach(lo_hu_tieu, con_son, 11).
+khoang_cach(lo_hu_tieu, cho_dem_tay_do, 6).
+khoang_cach(lo_hu_tieu, chua_ong, 8).
+khoang_cach(lo_hu_tieu, cau_di_bo_can_tho, 8).
+khoang_cach(lo_hu_tieu, vuon_co_bang_lang, 22).
+khoang_cach(lo_hu_tieu, bao_tang_can_tho, 9).
+khoang_cach(lo_hu_tieu, con_au, 5).
+khoang_cach(lo_hu_tieu, chua_phat_hoc, 8).
+khoang_cach(lo_hu_tieu, chua_quang_duc, 8).
+khoang_cach(lo_hu_tieu, vuon_sinh_thai_bao_gia_trang_vien, 4).
+khoang_cach(lo_hu_tieu, cong_vien_tao_dan, 8).
+khoang_cach(lo_hu_tieu, thoi_long_co_tu, 17).
+khoang_cach(lo_hu_tieu, gian_gua, 10).
+khoang_cach(lo_hu_tieu, con_duong_bich_hoa_can_tho, 8).
+khoang_cach(lo_hu_tieu, vuon_sinh_thai_ut_hien, 5).
+khoang_cach(lo_hu_tieu, vuon_ca_cao_muoi_cuong, 13).
+khoang_cach(lo_hu_tieu, chua_khmer_munir_ansay, 8).
+khoang_cach(lo_hu_tieu, vuon_trai_cay_chin_hong, 11).
+khoang_cach(lo_hu_tieu, chua_pothi_somron, 16).
+khoang_cach(lo_hu_tieu, khu_du_lich_ong_de, 11).
+khoang_cach(lo_hu_tieu, bai_bien_nhan_tao_can_tho, 8).
+khoang_cach(lo_hu_tieu, cong_vien_luu_huu_phuoc, 8).
+khoang_cach(lo_hu_tieu, di_tich_can_cu_vuon_man, 13).
+khoang_cach(lo_hu_tieu, mo_thu_khoa_bui_huu_nghia, 13).
+
+% Khoảng cách từ lo_hu_tieu đến các quán cà phê
+khoang_cach(lo_hu_tieu, hoa_yen_cafe, 8).
+khoang_cach(lo_hu_tieu, tiem_tra_co_ngot, 9).
+khoang_cach(lo_hu_tieu, coti_cafe, 8).
+khoang_cach(lo_hu_tieu, the_coffee_house, 8).
+khoang_cach(lo_hu_tieu, tiem_cafe_khoanh_khac, 9).
+khoang_cach(lo_hu_tieu, mini_beach, 9).
+khoang_cach(lo_hu_tieu, haidi_coffee, 8).
+khoang_cach(lo_hu_tieu, infini_t, 11).
+khoang_cach(lo_hu_tieu, tiem_cafe_ga_can_tho, 8).
+khoang_cach(lo_hu_tieu, coffee_time, 9).
+khoang_cach(lo_hu_tieu, mituu_smoothie_bowls_tea, 9).
+khoang_cach(lo_hu_tieu, tiem_cafe_hoa_mi, 10).
+
+% Khoảng cách từ lo_hu_tieu đến các quán ăn
+khoang_cach(lo_hu_tieu, bo_nuong_ngoi_cu_lan, 8).
+khoang_cach(lo_hu_tieu, sui_cao_a_chay, 9).
+khoang_cach(lo_hu_tieu, bun_dau_6_ket, 10).
+khoang_cach(lo_hu_tieu, am_thuc_song_tho, 9).
+khoang_cach(lo_hu_tieu, thuong_cang_quan, 8).
+khoang_cach(lo_hu_tieu, la_ca, 9).
+khoang_cach(lo_hu_tieu, ngoc_nhan_quan, 9).
+khoang_cach(lo_hu_tieu, oc_ut_hien, 8).
+khoang_cach(lo_hu_tieu, la_ca_2, 9).
+khoang_cach(lo_hu_tieu, oc_ly_saigon, 9).
+
+% Khoảng cách từ lo_hu_tieu đến các khách sạn
+khoang_cach(lo_hu_tieu, khach_san_azerai, 12).
+khoang_cach(lo_hu_tieu, khach_san_vinpearl, 8).
+khoang_cach(lo_hu_tieu, khach_san_muong_thanh, 9).
+khoang_cach(lo_hu_tieu, khach_san_can_tho_ecolodge, 1).
+khoang_cach(lo_hu_tieu, khach_san_nesta, 9).
+khoang_cach(lo_hu_tieu, khach_san_apple, 9).
+khoang_cach(lo_hu_tieu, khach_san_riverside, 8).
+khoang_cach(lo_hu_tieu, mekong_rustic, 10).
+khoang_cach(lo_hu_tieu, khach_san_hanh_phuc, 9).
+khoang_cach(lo_hu_tieu, khach_san_aura, 9).
+khoang_cach(lo_hu_tieu, khach_san_lavender, 8).
+khoang_cach(lo_hu_tieu, green_village_mekong, 11).
+khoang_cach(lo_hu_tieu, khach_san_amazon, 9).
+khoang_cach(lo_hu_tieu, khach_san_international, 9).
+khoang_cach(lo_hu_tieu, khach_san_holiday, 8).
+khoang_cach(lo_hu_tieu, art_can_tho_hotel, 10).
+
+% Khoảng cách từ chua_ong đến các địa điểm khác
+khoang_cach(chua_ong, cho_noi_cai_rang, 7).
+khoang_cach(chua_ong, ben_ninh_kieu, 2).
+khoang_cach(chua_ong, nha_co_binh_thuy, 5).
+khoang_cach(chua_ong, vuon_du_lich_my_khanh, 11).
+khoang_cach(chua_ong, thien_vien_truc_lam_phuong_nam, 13).
+khoang_cach(chua_ong, con_son, 6).
+khoang_cach(chua_ong, cho_dem_tay_do, 7).
+khoang_cach(chua_ong, lo_hu_tieu, 8).
+khoang_cach(chua_ong, cau_di_bo_can_tho, 2).
+khoang_cach(chua_ong, vuon_co_bang_lang, 25).
+khoang_cach(chua_ong, bao_tang_can_tho, 3).
+khoang_cach(chua_ong, con_au, 9).
+khoang_cach(chua_ong, chua_phat_hoc, 2).
+khoang_cach(chua_ong, chua_quang_duc, 3).
+khoang_cach(chua_ong, vuon_sinh_thai_bao_gia_trang_vien, 10).
+khoang_cach(chua_ong, cong_vien_tao_dan, 2).
+khoang_cach(chua_ong, thoi_long_co_tu, 18).
+khoang_cach(chua_ong, gian_gua, 16).
+khoang_cach(chua_ong, con_duong_bich_hoa_can_tho, 1).
+khoang_cach(chua_ong, vuon_sinh_thai_ut_hien, 9).
+khoang_cach(chua_ong, vuon_ca_cao_muoi_cuong, 6).
+khoang_cach(chua_ong, chua_khmer_munir_ansay, 2).
+khoang_cach(chua_ong, vuon_trai_cay_chin_hong, 14).
+khoang_cach(chua_ong, chua_pothi_somron, 17).
+khoang_cach(chua_ong, khu_du_lich_ong_de, 15).
+khoang_cach(chua_ong, bai_bien_nhan_tao_can_tho, 4).
+khoang_cach(chua_ong, cong_vien_luu_huu_phuoc, 1).
+khoang_cach(chua_ong, di_tich_can_cu_vuon_man, 7).
+khoang_cach(chua_ong, mo_thu_khoa_bui_huu_nghia, 6).
+
+% Khoảng cách từ chua_ong đến các quán cà phê
+khoang_cach(chua_ong, hoa_yen_cafe, 2).
+khoang_cach(chua_ong, tiem_tra_co_ngot, 3).
+khoang_cach(chua_ong, coti_cafe, 2).
+khoang_cach(chua_ong, the_coffee_house, 2).
+khoang_cach(chua_ong, tiem_cafe_khoanh_khac, 3).
+khoang_cach(chua_ong, mini_beach, 3).
+khoang_cach(chua_ong, haidi_coffee, 2).
+khoang_cach(chua_ong, infini_t, 5).
+khoang_cach(chua_ong, tiem_cafe_ga_can_tho, 2).
+khoang_cach(chua_ong, coffee_time, 3).
+khoang_cach(chua_ong, mituu_smoothie_bowls_tea, 3).
+khoang_cach(chua_ong, tiem_cafe_hoa_mi, 4).
+
+% Khoảng cách từ chua_ong đến các quán ăn
+khoang_cach(chua_ong, bo_nuong_ngoi_cu_lan, 2).
+khoang_cach(chua_ong, sui_cao_a_chay, 3).
+khoang_cach(chua_ong, bun_dau_6_ket, 4).
+khoang_cach(chua_ong, am_thuc_song_tho, 3).
+khoang_cach(chua_ong, thuong_cang_quan, 2).
+khoang_cach(chua_ong, la_ca, 3).
+khoang_cach(chua_ong, ngoc_nhan_quan, 3).
+khoang_cach(chua_ong, oc_ut_hien, 2).
+khoang_cach(chua_ong, la_ca_2, 3).
+khoang_cach(chua_ong, oc_ly_saigon, 3).
+
+% Khoảng cách từ chua_ong đến các khách sạn
+khoang_cach(chua_ong, khach_san_azerai, 5).
+khoang_cach(chua_ong, khach_san_vinpearl, 2).
+khoang_cach(chua_ong, khach_san_muong_thanh, 3).
+khoang_cach(chua_ong, khach_san_can_tho_ecolodge, 10).
+khoang_cach(chua_ong, khach_san_nesta, 3).
+khoang_cach(chua_ong, khach_san_apple, 3).
+khoang_cach(chua_ong, khach_san_riverside, 2).
+khoang_cach(chua_ong, mekong_rustic, 6).
+khoang_cach(chua_ong, khach_san_hanh_phuc, 3).
+khoang_cach(chua_ong, khach_san_aura, 3).
+khoang_cach(chua_ong, khach_san_lavender, 2).
+khoang_cach(chua_ong, green_village_mekong, 7).
+khoang_cach(chua_ong, khach_san_amazon, 3).
+khoang_cach(chua_ong, khach_san_international, 3).
+khoang_cach(chua_ong, khach_san_holiday, 2).
+khoang_cach(chua_ong, art_can_tho_hotel, 4).
+
+% Khoảng cách từ cau_di_bo_can_tho đến các địa điểm khác
+khoang_cach(cau_di_bo_can_tho, cho_noi_cai_rang, 6).
+khoang_cach(cau_di_bo_can_tho, ben_ninh_kieu, 1).
+khoang_cach(cau_di_bo_can_tho, nha_co_binh_thuy, 4).
+khoang_cach(cau_di_bo_can_tho, vuon_du_lich_my_khanh, 10).
+khoang_cach(cau_di_bo_can_tho, thien_vien_truc_lam_phuong_nam, 12).
+khoang_cach(cau_di_bo_can_tho, con_son, 15).
+khoang_cach(cau_di_bo_can_tho, cho_dem_tay_do, 6).
+khoang_cach(cau_di_bo_can_tho, lo_hu_tieu, 8).
+khoang_cach(cau_di_bo_can_tho, chua_ong, 2).
+khoang_cach(cau_di_bo_can_tho, vuon_co_bang_lang, 25).
+khoang_cach(cau_di_bo_can_tho, bao_tang_can_tho, 3).
+khoang_cach(cau_di_bo_can_tho, con_au, 9).
+khoang_cach(cau_di_bo_can_tho, chua_phat_hoc, 2).
+khoang_cach(cau_di_bo_can_tho, chua_quang_duc, 3).
+khoang_cach(cau_di_bo_can_tho, vuon_sinh_thai_bao_gia_trang_vien, 10).
+khoang_cach(cau_di_bo_can_tho, cong_vien_tao_dan, 2).
+khoang_cach(cau_di_bo_can_tho, thoi_long_co_tu, 18).
+khoang_cach(cau_di_bo_can_tho, gian_gua, 16).
+khoang_cach(cau_di_bo_can_tho, con_duong_bich_hoa_can_tho, 1).
+khoang_cach(cau_di_bo_can_tho, vuon_sinh_thai_ut_hien, 9).
+khoang_cach(cau_di_bo_can_tho, vuon_ca_cao_muoi_cuong, 6).
+khoang_cach(cau_di_bo_can_tho, chua_khmer_munir_ansay, 2).
+khoang_cach(cau_di_bo_can_tho, vuon_trai_cay_chin_hong, 14).
+khoang_cach(cau_di_bo_can_tho, chua_pothi_somron, 17).
+khoang_cach(cau_di_bo_can_tho, khu_du_lich_ong_de, 15).
+khoang_cach(cau_di_bo_can_tho, bai_bien_nhan_tao_can_tho, 4).
+khoang_cach(cau_di_bo_can_tho, cong_vien_luu_huu_phuoc, 1).
+khoang_cach(cau_di_bo_can_tho, di_tich_can_cu_vuon_man, 7).
+khoang_cach(cau_di_bo_can_tho, mo_thu_khoa_bui_huu_nghia, 6).
+
+% Khoảng cách từ cau_di_bo_can_tho đến các quán cà phê
+khoang_cach(cau_di_bo_can_tho, hoa_yen_cafe, 1).
+khoang_cach(cau_di_bo_can_tho, tiem_tra_co_ngot, 2).
+khoang_cach(cau_di_bo_can_tho, coti_cafe, 1).
+khoang_cach(cau_di_bo_can_tho, the_coffee_house, 1).
+khoang_cach(cau_di_bo_can_tho, tiem_cafe_khoanh_khac, 2).
+khoang_cach(cau_di_bo_can_tho, mini_beach, 2).
+khoang_cach(cau_di_bo_can_tho, haidi_coffee, 1).
+khoang_cach(cau_di_bo_can_tho, infini_t, 4).
+khoang_cach(cau_di_bo_can_tho, tiem_cafe_ga_can_tho, 1).
+khoang_cach(cau_di_bo_can_tho, coffee_time, 2).
+khoang_cach(cau_di_bo_can_tho, mituu_smoothie_bowls_tea, 2).
+khoang_cach(cau_di_bo_can_tho, tiem_cafe_hoa_mi, 3).
+
+% Khoảng cách từ cau_di_bo_can_tho đến các quán ăn
+khoang_cach(cau_di_bo_can_tho, bo_nuong_ngoi_cu_lan, 1).
+khoang_cach(cau_di_bo_can_tho, sui_cao_a_chay, 2).
+khoang_cach(cau_di_bo_can_tho, bun_dau_6_ket, 3).
+khoang_cach(cau_di_bo_can_tho, am_thuc_song_tho, 2).
+khoang_cach(cau_di_bo_can_tho, thuong_cang_quan, 1).
+khoang_cach(cau_di_bo_can_tho, la_ca, 2).
+khoang_cach(cau_di_bo_can_tho, ngoc_nhan_quan, 2).
+khoang_cach(cau_di_bo_can_tho, oc_ut_hien, 1).
+khoang_cach(cau_di_bo_can_tho, la_ca_2, 2).
+khoang_cach(cau_di_bo_can_tho, oc_ly_saigon, 2).
+
+% Khoảng cách từ cau_di_bo_can_tho đến các khách sạn
+khoang_cach(cau_di_bo_can_tho, khach_san_azerai, 4).
+khoang_cach(cau_di_bo_can_tho, khach_san_vinpearl, 1).
+khoang_cach(cau_di_bo_can_tho, khach_san_muong_thanh, 2).
+khoang_cach(cau_di_bo_can_tho, khach_san_can_tho_ecolodge, 9).
+khoang_cach(cau_di_bo_can_tho, khach_san_nesta, 2).
+khoang_cach(cau_di_bo_can_tho, khach_san_apple, 2).
+khoang_cach(cau_di_bo_can_tho, khach_san_riverside, 1).
+khoang_cach(cau_di_bo_can_tho, mekong_rustic, 5).
+khoang_cach(cau_di_bo_can_tho, khach_san_hanh_phuc, 2).
+khoang_cach(cau_di_bo_can_tho, khach_san_aura, 2).
+khoang_cach(cau_di_bo_can_tho, khach_san_lavender, 1).
+khoang_cach(cau_di_bo_can_tho, green_village_mekong, 6).
+khoang_cach(cau_di_bo_can_tho, khach_san_amazon, 2).
+khoang_cach(cau_di_bo_can_tho, khach_san_international, 2).
+khoang_cach(cau_di_bo_can_tho, khach_san_holiday, 1).
+khoang_cach(cau_di_bo_can_tho, art_can_tho_hotel, 3).
