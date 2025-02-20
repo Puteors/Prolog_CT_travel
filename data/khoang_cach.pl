@@ -2539,7 +2539,7 @@ khoang_cach(the_coffee_house, green_village_mekong, 7).
 khoang_cach(the_coffee_house, khach_san_amazon, 3).
 khoang_cach(the_coffee_house, khach_san_international, 3).
 khoang_cach(the_coffee_house, khach_san_holiday, 2).
-khoang_cach(the_coffee_house, art_can_tho_hotel, 4).\
+khoang_cach(the_coffee_house, art_can_tho_hotel, 4).
 
 % Khoảng cách từ tiem_cafe_khoanh_khac đến các địa điểm khác
 khoang_cach(tiem_cafe_khoanh_khac, cho_noi_cai_rang, 7).

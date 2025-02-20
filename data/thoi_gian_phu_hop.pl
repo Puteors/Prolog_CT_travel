@@ -1,0 +1,67 @@
+% Thời gian phù hợp cho các địa điểm du lịch
+thoi_gian_phu_hop(cho_noi_cai_rang, sang).
+thoi_gian_phu_hop(ben_ninh_kieu, chieu).
+thoi_gian_phu_hop(nha_co_binh_thuy, sang).
+thoi_gian_phu_hop(vuon_du_lich_my_khanh, chieu).
+thoi_gian_phu_hop(thien_vien_truc_lam_phuong_nam, sang).
+thoi_gian_phu_hop(con_son, chieu).
+thoi_gian_phu_hop(cho_dem_tay_do, toi).
+thoi_gian_phu_hop(lo_hu_tieu, sang).
+thoi_gian_phu_hop(chua_ong, sang).
+thoi_gian_phu_hop(cau_di_bo_can_tho, chieu).
+thoi_gian_phu_hop(vuon_co_bang_lang, chieu).
+thoi_gian_phu_hop(bao_tang_can_tho, sang).
+thoi_gian_phu_hop(con_au, chieu).
+thoi_gian_phu_hop(chua_phat_hoc, sang).
+thoi_gian_phu_hop(chua_quang_duc, sang).
+thoi_gian_phu_hop(vuon_sinh_thai_bao_gia_trang_vien, chieu).
+thoi_gian_phu_hop(cong_vien_tao_dan, chieu).
+thoi_gian_phu_hop(thoi_long_co_tu, sang).
+thoi_gian_phu_hop(gian_gua, chieu).
+thoi_gian_phu_hop(con_duong_bich_hoa_can_tho, chieu).
+thoi_gian_phu_hop(vuon_sinh_thai_ut_hien, chieu).
+thoi_gian_phu_hop(vuon_ca_cao_muoi_cuong, chieu).
+thoi_gian_phu_hop(chua_khmer_munir_ansay, sang).
+thoi_gian_phu_hop(vuon_trai_cay_chin_hong, chieu).
+thoi_gian_phu_hop(chua_pothi_somron, sang).
+thoi_gian_phu_hop(khu_du_lich_ong_de, chieu).
+thoi_gian_phu_hop(bai_bien_nhan_tao_can_tho, chieu).
+thoi_gian_phu_hop(cong_vien_luu_huu_phuoc, chieu).
+thoi_gian_phu_hop(di_tich_can_cu_vuon_man, sang).
+thoi_gian_phu_hop(mo_thu_khoa_bui_huu_nghia, sang).
+
+% Thời gian phù hợp cho quán cà phê
+thoi_gian_phu_hop(hoa_yen_cafe, trua).
+thoi_gian_phu_hop(hoa_yen_cafe, toi).
+thoi_gian_phu_hop(tiem_tra_co_ngot, trua).
+thoi_gian_phu_hop(tiem_tra_co_ngot, toi).
+thoi_gian_phu_hop(coti_cafe, trua).
+thoi_gian_phu_hop(the_coffee_house, trua).
+thoi_gian_phu_hop(the_coffee_house, chieu).
+thoi_gian_phu_hop(the_coffee_house, toi).
+thoi_gian_phu_hop(tiem_cafe_khoanh_khac, trua).
+thoi_gian_phu_hop(mini_beach, chieu).
+thoi_gian_phu_hop(mini_beach, trua).
+thoi_gian_phu_hop(mini_beach, toi).
+thoi_gian_phu_hop(haidi_coffee, trua).
+thoi_gian_phu_hop(infini_t, chieu).
+thoi_gian_phu_hop(tiem_cafe_ga_can_tho, trua).
+thoi_gian_phu_hop(coffee_time, trua).
+thoi_gian_phu_hop(mituu_smoothie_bowls_tea, trua).
+thoi_gian_phu_hop(tiem_cafe_hoa_mi, chieu).
+
+% Thời gian phù hợp cho quán ăn
+thoi_gian_phu_hop(bo_nuong_ngoi_cu_lan, trua).
+thoi_gian_phu_hop(bo_nuong_ngoi_cu_lan, toi).
+thoi_gian_phu_hop(sui_cao_a_chay, trua).
+thoi_gian_phu_hop(sui_cao_a_chay, toi).
+thoi_gian_phu_hop(bun_dau_6_ket, trua).
+thoi_gian_phu_hop(bun_dau_6_ket, toi).
+thoi_gian_phu_hop(am_thuc_song_tho, trua).
+thoi_gian_phu_hop(thuong_cang_quan, trua).
+thoi_gian_phu_hop(la_ca, trua).
+thoi_gian_phu_hop(ngoc_nhan_quan, sang).
+thoi_gian_phu_hop(ngoc_nhan_quan, trua).
+thoi_gian_phu_hop(oc_ut_hien, chieu).
+thoi_gian_phu_hop(la_ca_2, trua).
+thoi_gian_phu_hop(oc_ly_saigon, chieu).
