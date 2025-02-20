@@ -28,9 +28,6 @@ query_samples = {
     ],
 
     "🏞️ Địa điểm du lịch": [
-        ("Danh sách các khu du lịch sinh thái ở Quận",
-         "loai_dia_diem(DiaDiem, khu_du_lich), loai_hinh_dia_diem(DiaDiem, du_lich_sinh_thai), "
-         "vi_tri(DiaDiem, Quận)."),
 
         ("Các địa điểm du lịch trong bán kính 10km từ Điểm khởi hành",
          "khoang_cach(Điểm khởi hành, DiaDiem, KhoangCach), "

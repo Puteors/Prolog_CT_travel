@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 from pyswip import Prolog
 from query_samples import query_samples
 from utils import translations_keys, translations_values, quan_huyen, dia_diem, phuong_tien, thoi_gian, \
-    loai_dia_diem, convert_loai_dia_diem, convert_thoi_gian, convert_quan_huyen, convert_dia_diem, convert_phuong_tien, convert_thoi_gian
+    convert_thoi_gian, convert_quan_huyen, convert_dia_diem, convert_phuong_tien, convert_thoi_gian
 
 # Khởi tạo Prolog và nạp cơ sở tri thức từ file
 prolog = Prolog()
@@ -80,7 +80,7 @@ for category in query_samples:
         queries[question] = query
 
 # Nhãn danh mục truy vấn
-tk.Label(root, text="Chọn truy vấn:", font=("Arial", 12)).pack(pady=5)
+tk.Label(root, text="Hãy đặt câu hỏi", font=("Arial", 12)).pack(pady=5)
 
 # Combobox chọn câu hỏi
 query_combobox = ttk.Combobox(root, values=list(queries.keys()), font=("Arial", 11), width=90)
